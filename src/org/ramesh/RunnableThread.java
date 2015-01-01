@@ -1,11 +1,11 @@
 package org.ramesh;
 
-public class MyThread implements Runnable{
+public class RunnableThread implements Runnable{
 
 	private Thread t;
 	private String threadName;
 	
-	public MyThread(String threadName) {
+	public RunnableThread(String threadName) {
 		super();
 		this.threadName = threadName;
 		System.out.println("Creating thread: "+threadName);
